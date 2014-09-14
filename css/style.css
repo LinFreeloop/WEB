@@ -1,0 +1,245 @@
+﻿#container{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.banner img{
+	height: 25%;
+	width: 100%;
+}
+ul.nav {
+	background-color: #fff;
+	border-bottom: 1px solid #aeaeae;
+	content: "";
+	display: table;
+	width: 100%;
+	z-index: 999;
+}
+.nav li{
+	float: left;
+	padding: 21px 0 10px;
+	text-align: center;
+	width: 25%;
+}
+.nav li a{
+	color: #696969;
+	text-align: center;
+	width: 25%;
+}
+a.current{
+	background-color: #d42d41;
+}
+.nav li:first-child a{
+	color: #f84d62;
+}
+.nav li img{
+	width: 50px;
+}
+.nav li span{
+	display: block;
+	font-size: 16px;	
+}
+/*************item_list***********/
+.content{
+	border-top: 5px solid #e0e0e0;
+}
+.content a{
+	color: #696969;
+	display: block;
+	overflow: hidden;	
+	width: 100%;
+}
+.item{
+	overflow: hidden;
+	width: 100%;
+}
+.block{
+	background:#fff;
+	border-bottom: 1px solid #e0e0e0;
+	float:left;
+	font-size:12px;
+	min-height:130px;
+	overflow:hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	position: relative;
+	text-align:justify;
+	width: 100%;
+}
+.block .image{
+	display: inline-block;
+	float: left;
+	overflow:hidden;
+	position: relative;
+}
+.block img{
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
+	margin-right: 10px;
+	width: 40%;
+	
+}
+.block .baoyou{
+	left: 20%;
+	position: absolute;
+	width: 20%;
+	z-index: 99;
+}
+.descrip{
+	color: #868686;
+	display: inline-block;
+	font-size: 16px;
+	text-align:justify;
+	width: 50%;	
+}
+
+.price{
+	bottom: 0;
+	color: #f84d62;
+	display: inline-block;
+	font-size: 0;
+	position: absolute;
+	left: 43%;
+	
+}
+.price span{
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+.price .del{
+	color: #696969;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 20px;
+	text-decoration: line-through;
+}
+span.discount{
+	color: #f84d62;
+	display: inline-block;
+	font-size: 12px;
+	height: 26px;
+	margin-left: 20px;
+	position: relative;
+	text-align: center;
+	width: 49px;
+}
+.discount img{
+	left: -2%;
+	position: absolute;
+	top: -25%;
+	width: 54px;
+	max-width: 54px;
+}
+
+.loading{
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}	
+.loading span{
+	color: #696969;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+.back-to {
+    bottom: 9%;
+    overflow:hidden;
+    position:fixed;
+    right: 2%;
+    width: 60px;
+    z-index:999;
+}
+.back-to .back-top{
+	margin-top: 5px;
+}
+.back-to .back-top,.back-to .search-btn {
+	background-color: #f95b6e;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px; 
+	display: block;
+	float: right;
+	height: 40px;
+	margin-left: 10px;
+	outline: 0 none;
+	text-align: center;
+	width: 40px;
+}
+.back-top img, .search-btn img{
+	margin-top: 13px;
+	width: 40%;
+}
+.search_header{
+	border-bottom: 1px solid #aeaeae;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 10px;
+	padding-bottom: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;	
+}
+.search_header form{
+	height: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.search_header ul{
+	overflow: hidden;
+	width: 100%;
+}
+.search_header li{
+	float: left;
+	display: block;
+	position: relative;
+	width: 20%;
+}
+.search_header li:nth-child(2){
+	width: 50%;
+}
+.search_header span{
+	background: url(../images/back.png) no-repeat;
+	background-size: 80%;
+	display: inline-block;
+	height: 30px;
+	margin-top: 5px;
+	overflow: hidden;
+	width: 40px;
+	
+}
+.search_header img{
+	width: 50%;
+}
+.search_header .search{
+	background:url(../images/search.png) no-repeat scroll 2% 50% /20px auto #efefef;
+	border: 1px solid #cfcfcf;
+	color: #868686;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow:0px 0px 3px 3px #e4e4e4 inset;
+	height: 30px;
+	padding-left: 40px;
+	width: 90%;
+}
+.search_header li:last-child{
+	margin-right: 2%;
+}
+.search_header .btn{
+	background: none;
+	border: none;
+	color: #5b5b5b;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 25px;
+	padding-top: 5px;
+}
